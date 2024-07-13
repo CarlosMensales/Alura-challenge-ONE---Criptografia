@@ -8,7 +8,7 @@
 }
 
 body{
-  background-color: #D8DFE8;
+  background-color: #E5E5E5;
 }
 
 .logo {
@@ -21,6 +21,49 @@ body{
   justify-content: space-around;
   padding: 10px;
   margin: 15px;
+}
+
+.container__sec1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 45%;
+}
+
+.texto {
+  width: 100%;
+  border: 0;
+  background-color: #E5E5E5;
+  outline: 0;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: 32px;
+  color: #0A3871;
+}
+
+.botoes {
+  height: 8vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.botao {
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  width: 45%;
+  height: 95%;
+   border-radius: 24px;
+}
+
+#crip {
+  background-color: #0A3871;
+  color: #D8DFE8;
+}
+
+#descrip {
+  background-color: #D8DFE8;
+  color:#0A3871;
 }
 
 .container__sec2 {
