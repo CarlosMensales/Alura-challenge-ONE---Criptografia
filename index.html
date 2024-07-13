@@ -8,22 +8,24 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
-    <header><img src="img/a.jpeg" alt="Logo da alura"></header>
-    <main>
-        <section>
-            <input type="text">
+    <header class="cabecalho"><img src="img/a.jpeg" alt="Logo da alura" class="logo"></header>
+    <main class="container">
+        <section class="container__sec1">
+            <input type="text" placeholder="Digite seu texto aqui">
             <p><i class="material-symbols-outlined">Error</i>Apenas letras minúsculas e sem acento</p>
-            <input type="button" value="Criptografar">
-            <input type="button" value="Descriptografar">
+            <div class="botoes">
+                <input type="button" value="Criptografar" class="botao">
+                <input type="button" value="Descriptografar" class="botao">
+            </div>
         </section>
-        <section>
-            <img src="img/High quality products 1 1.svg" alt="">
-            <div>
+        <section class="container__sec2">
+            <img src="img/High quality products 1 1.svg" alt="" class="img2">
+            <div class="texto_function">
                 <h2>Nenhuma mensagem encontrada</h2>
                 <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
             </div>
         </section>
     </main>
-    <footer></footer>
+    <footer>Desenvolvido por Carlos Mensales.</footer>
 </body>
 </html>
