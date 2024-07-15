@@ -11,22 +11,26 @@
     <header class="cabecalho"><img src="img/a.jpeg" alt="Logo da alura" class="logo"></header>
     <main class="container">
         <section class="container__sec1">
-            <input type="text" placeholder="Digite seu texto aqui" class="texto">
+            <input type="text" placeholder="Digite seu texto aqui" class="texto" id="texto_f">
             <div class="interacao">
                 <p><i class="material-symbols-outlined">Error</i>Apenas letras minúsculas e sem acento</p>
                 <div class="botoes">
-                    <input type="button" value="Criptografar" class="botao" id="crip">
-                    <input type="button" value="Descriptografar" class="botao" id="descrip">
+                    <input type="button" value="Criptografar" class="botao" id="crip" onclick="criptografar()">
+                    <input type="button" value="Descriptografar" class="botao" id="descrip" onclick="descriptografar()">
                 </div>
             </div>
         </section>
         <section class="container__sec2">
-            <img src="img/High quality products 1 1.svg" alt="" class="img2">
+            <img src="img/High quality products 1 1.svg" alt="" id="img2">
             <div class="texto_function">
-                <h2>Nenhuma mensagem encontrada</h2>
-                <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+                <h2 id="output">Nenhuma mensagem encontrada</h2>
+                <p id="p2">Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </div>
+            <div class="botoes">
+                <button id="botao_copiar" style="display: none;">Copiar Mensagem</button>
             </div>
         </section>
     </main>
+    <script src="script.js"></script>
 </body>
 </html>
