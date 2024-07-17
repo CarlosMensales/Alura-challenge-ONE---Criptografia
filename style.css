@@ -77,10 +77,12 @@ body{
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  overflow: hidden;
+  box-shadow: 5px 7px 15px rgb(169, 169, 169);
 }
 
 #img2 {
-  height: 40%;
+  height: 32%;
 
 }
 
@@ -89,6 +91,12 @@ body{
   font-weight: 500 bold;
   font-family: "Inter", sans-serif;
   text-align: center;
+}
+
+#output {
+  display: inline-block;
+  overflow-wrap: break-word;
+  width: 100%;
 }
 
 .texto_function > p {
@@ -109,4 +117,25 @@ body{
   display: inline;
   background-color: #D8DFE8;
   color:#0A3871;
+}
+
+@media (max-width: 800px) {
+  .container {
+    flex-direction: column;
+  }
+  .container__sec1 {
+    width: 95%;
+    height: 60%;
+  }
+  .texto {
+    height: 45vh;
+  }
+  .container__sec2 {
+    width: 95%;
+    height: 30%;
+    position: top;
+  }
+  #img2 {
+    display: none;
+  }
 }

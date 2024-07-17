@@ -1,3 +1,5 @@
+const p = document.getElementById('output')
+
 function criptografar() {
     let msg = document.getElementById('texto_f').value
     let outputText = msg
@@ -5,7 +7,7 @@ function criptografar() {
         .replace(/i/g, "imes")
         .replace(/a/g, "ai")
         .replace(/o/g, "ober")
-        .replace(/u/g, "uifat");
+        .replace(/u/g, "ufat");
 
     exibirMensagem(outputText)
 }
@@ -17,20 +19,21 @@ function descriptografar() {
         .replace(/imes/g, "i")
         .replace(/ai/g, "a")
         .replace(/ober/g, "o")
-        .replace(/uifat/g, "u");
+        .replace(/ufat/g, "u");
 
     exibirMensagem(outputText)
 }
 
 function exibirMensagem(msg) {
     img = document.getElementById('img2')
-    p = document.getElementById('p2')
-    if(p && img) {
+    h = document.getElementById('h2')
+    if(h && img) {
         img.remove()
-        p.remove()    
+        h.remove()    
+    } else if(h) {
+        h.remove()
     }
-    h2 = document.getElementById('output')
-    h2.textContent = msg
+    p.textContent = msg
     let botao_copiar = document.getElementById('botao_copiar')
     botao_copiar.classList.add('botao_copiar')
     botao_copiar.style.display = 'inline'
@@ -39,8 +42,7 @@ function exibirMensagem(msg) {
 }
 
 function copiarMensagem() {
-    const h2 = document.getElementById('output');
-    const mensagem = h2.textContent;
+    const mensagem = p.textContent;
     navigator.clipboard.writeText(mensagem)
         .then(() => {
             alert('Mensagem copiada para a área de transferência');
