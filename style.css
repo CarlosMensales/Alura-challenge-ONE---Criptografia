@@ -38,7 +38,7 @@ body{
   outline: 0;
   font-family: "Inter", sans-serif;
   font-weight: 300;
-  font-size: 32px;
+  font-size: 2em;
   color: #0A3871;
 }
 
@@ -49,7 +49,7 @@ body{
 }
 
 .botao {
-  font-size: 16px;
+  font-size: 1em;
   font-family: "Inter", sans-serif;
   text-align: center;
   width: 45%;
@@ -87,7 +87,7 @@ body{
 }
 
 .texto_function > h2 {
-  font-size: 24px;
+  font-size: 1.5em;
   font-weight: 500 bold;
   font-family: "Inter", sans-serif;
   text-align: center;
@@ -100,7 +100,7 @@ body{
 }
 
 .texto_function > p {
-  font-size: 16px;
+  font-size: 1em;
   font-weight: 400 normal;
   font-family: "Inter", sans-serif;
   text-align: center;
@@ -108,7 +108,7 @@ body{
 }
 
 .botao_copiar {
-  font-size: 16px;
+  font-size: 1em;
   font-family: "Inter", sans-serif;
   text-align: center;
   width: 90%;
