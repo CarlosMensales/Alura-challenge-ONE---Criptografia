@@ -4,6 +4,11 @@
 
 Esse projeto foi desenvolvido com a finalidade de aumentar minha lógica de programação, fora claro, dar sequencia ao challenge e ao curso.
 
+### Links
+
+[Design Proposto](https://www.figma.com/design/tvFEYhVfZTjdJ5P24RGV21/Alura-Challenge---Desafio-1---L%C3%B3gica?node-id=16-802&t=8lvxR47qbd8mtNua-0)
+[Projeto no github Pages](https://carlosmensales.github.io/Alura-challenge-ONE---Criptografia/)
+
 ### Regras criptografia
 
 As regras de criptografia do projeto foi apenas com vogais, sendo alteradas da seguinte maneira:
