@@ -139,3 +139,19 @@ body{
     display: none;
   }
 }
+
+@media (max-width: 400px) {
+  .botoes {
+    height: 50%;
+    flex-direction: column;
+    padding: 5px;
+  }
+
+  .botao {
+    width: 95%;
+    height: 8vh;
+    align-items: center;
+    margin-bottom: 7px;
+  }
+
+}
